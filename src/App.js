@@ -1,9 +1,16 @@
-import './App.css';
+import React, { useState } from 'react'
+import Home from './page/Home'
+import Login from './page/Login'
 
-export default function App() {
+const App = () => {
+  // const [auth, setAuth] = useState(true)
+
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <Home />
+      {/* <Login /> */}
+    </>
   )
 }
+
+export default App
